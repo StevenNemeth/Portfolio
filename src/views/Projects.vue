@@ -15,8 +15,8 @@
           <th><a href='https://quote-gen-snemeth.herokuapp.com/' target='_blank' class='project-link'>Quote Generator</a></th>
         </tr>
         <tr>
-          <th>Chatrillo is a chat application built with Javascript and HTML/CSS. It uses Node and Socket.io to allow users to create, connect, and chat with other users via websockets.</th>
-          <th>Chatrillo is a chat application built with Javascript and HTML/CSS. It uses Node and Socket.io to allow users to create, connect, and chat with other users via websockets.</th>
+          <th>Chatrillo is a chat application built with Javascript and HTML/CSS. It uses Node and Socket.io to allow users to create, connect, and chat with other users in real time via websockets.</th>
+          <th>Its a simple calculator. Built a mock up and implented it with CSS </th>
           <th>Quote Generator is an application that uses Express and Axios to access a quote database API with thousands of quotes.</th>
         </tr>
         <tr>

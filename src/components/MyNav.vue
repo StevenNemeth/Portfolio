@@ -1,14 +1,14 @@
 <template>
     <section class='nav'>
-        <div class='nav-logo'>
-            <img>
-        </div>
         <div class='nav-menu'>
             <ul class='nav-menu-list'>
                 <router-link class='nav-list-item' to="/">About me</router-link>
                 <router-link class='nav-list-item' to="/projects">Projects</router-link>
-                <li class='nav-list-item'><a href='https://github.com/StevenNemeth' target="_blank">GitHub</a></li>
-                <li class='nav-list-item'><a href='https://www.linkedin.com/in/steven-nemeth-3227ba200/' target="_blank">Linkedin</a></li>
+            </ul>
+            <p class='nav-external-link'>External Links</p>
+            <ul class='nav-menu-list'>
+                <li class='nav-list-link'><a href='https://github.com/StevenNemeth' target="_blank">GitHub</a></li>
+                <li class='nav-list-link'><a href='https://www.linkedin.com/in/steven-nemeth-3227ba200/' target="_blank">Linkedin</a></li>
             </ul>
         </div>
     </section>
@@ -64,6 +64,9 @@ body {
     padding: 0;
 
 }
+.nav-external-link{
+    text-align: center;
+}
 .nav-list-item {
     background: #222;
     padding: 10px 20px;
@@ -71,6 +74,16 @@ body {
     margin: 10px auto;
     cursor:pointer;
     width: 65%;
+
+}
+.nav-list-link {
+    background: #222;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 10px auto;
+    cursor:pointer;
+    width: 65%;
+    text-decoration: underline;
 
 }
 a{
@@ -85,7 +98,6 @@ tr th, tr td {
 }
 
 .portrait-picture{
-    
   border-radius: 50%;
   margin-left: 15px;
   height: 140px;
