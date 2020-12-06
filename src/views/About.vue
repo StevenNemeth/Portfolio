@@ -3,8 +3,13 @@
     <div class='card-title'>
       <img src='../assets/my picture.jpg' class='portrait-picture'>
       <div class='title-text-content'>
-        <p>About me</p>
+        <h3>About me</h3>
         <h2>Steven Nemeth</h2>
+      </div>
+      <div class='title-text-content-contact'>
+        <h4>Contact</h4>
+        <h4>(352) 702-8073</h4>
+        <h4>StevenNemeth93@gmail.com</h4>
       </div>
     </div>
     <div class='card-content'>
@@ -38,6 +43,11 @@
 </template>
 
 <style scoped>
+.title-text-content-contact{
+  margin-left: auto;
+  text-align: right;
+  margin-right: 20px
+}
 
 .skills{
   text-align: left;
