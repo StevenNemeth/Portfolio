@@ -3,7 +3,7 @@
     <div class='card-title'>
         <img src='../assets/my picture.jpg' class='portrait-picture'>
       <div class='title-text-content'>
-        <p>My projects</p>
+        <h1>My projects</h1>
         <h2>Steven Nemeth</h2>
       </div>
     </div>
