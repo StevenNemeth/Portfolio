@@ -99,7 +99,7 @@ tr th, tr td {
 
 .portrait-picture{
   border-radius: 50%;
-  margin-left: 15px;
+  margin-left: 25px;
   height: 140px;
 }
 </style>

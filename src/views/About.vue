@@ -6,6 +6,11 @@
         <h1>About me</h1>
         <h2>Steven Nemeth</h2>
       </div>
+      <div class='title-text-content-contact'>
+        <h4 class='contact'>Contact</h4>
+        <h4 class='contact'>(352) 702-8073</h4>
+        <h4 class='contact'>StevenNemeth93@gmail.com</h4>
+      </div>
     </div>
     <div class='card-content'>
       <p>Hey there! My name is Steve, I've been learning and building applications since October, 2020 The first project I built was my simple "Calculator" app, using Javascript and HTML/CSS. With each project there after, I started learning and implementing server side technology using Node and Express. I practiced building API's with my "Quote Generator" app using Axios and Node, and websockets with my "Chatrillo" app using Socket.io. I'm currently learning Vue and React, this about me page is built with Vue.js </p>
@@ -28,7 +33,6 @@
           <th class='skills'>
             <li>Vue</li>
             <li>React</li>
-            
             </th>
             <th class='skills'>
             <li>AWS</li>
@@ -50,4 +54,10 @@ table{
   margin-left: auto;
   margin-right: auto;
 }
+.title-text-content-contact{
+  margin-left: auto;
+  text-align: right;
+  margin-right: 20px;
+}
+
 </style>
